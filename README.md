@@ -357,28 +357,6 @@ complex-analyzer/
 
 ---
 
-## References
-
-Vangone A, Bonvin AMJJ. Contacts-based prediction of binding affinity in protein-protein complexes. eLife. 2015;4:e07454.
-
-Xue LC, Rodrigues JP, Kastritis PL, Bonvin AMJJ, Vangone A. PRODIGY: a web server for predicting the binding affinity of protein-protein complexes. Bioinformatics. 2016;32(23):3676-3678.
-
-Eisenberg D, Weiss RM, Terwilliger TC. The helical hydrophobic moment: a measure of the amphiphilicity of a helix. Nature. 1982;299(5881):371-374.
-
-Eisenberg D, McLachlan AD. Solvation energy in protein folding and binding. Nature. 1986;319(6050):199-203.
-
-Kabsch W, Sander C. Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features. Biopolymers. 1983;22(12):2577-2637.
-
-Lawrence MC, Colman PM. Shape complementarity at protein/protein interfaces. J. Mol. Biol. 1993;234(4):946-950.
-
-Kyte J, Doolittle RF. A simple method for displaying the hydropathic character of a protein. J. Mol. Biol. 1982;157(1):105-132.
-
-Holton TA, Pollastri G, Shields DC, Mooney C. CPPpred: prediction of cell penetrating peptides. Bioinformatics. 2013;29(23):3094-3096.
-
-Shrake A, Rupley JA. Environment and exposure to solvent of protein atoms. Lysozyme and insulin. J. Mol. Biol. 1973;79(2):351-371.
-
----
-
 ## License
 
 MIT
