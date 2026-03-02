@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "complex-analyzer"
+version = "0.1.0"
+description = "Comprehensive structural analysis of protein-protein complexes"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = [
+    "biopython>=1.80",
+    "pandas>=1.5",
+    "numpy>=1.22",
+]
+
+[project.optional-dependencies]
+full = [
+    "freesasa>=2.1",
+    # PyRosetta must be installed separately from https://www.pyrosetta.org
+]
+dev = [
+    "pytest>=7",
+    "pytest-cov",
+    "ruff",
+]
+
+[project.scripts]
+complex-analyzer = "complex_analyzer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

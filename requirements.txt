@@ -1,0 +1,8 @@
+biopython>=1.80
+pandas>=1.5
+numpy>=1.22
+freesasa
+prodigy-prot>=2.1
+# PyRosetta is optional but recommended for high-accuracy metrics.
+# Install from: https://www.pyrosetta.org/downloads
+# pyrosetta
