@@ -1,4 +1,4 @@
-# complex-analyzer
+# PIA (Protein Interface Analyzer)
 
 Batch structural analysis of protein-protein complexes from computational design pipelines. Reads PDB/CIF files and produces a single CSV with 80+ biophysical, energetic, and compositional metrics per complex.
 
